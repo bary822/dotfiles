@@ -1,0 +1,8 @@
+[user]
+	email = hiroto.fukui822@gmail.com
+[alias]
+	co = checkout
+	st = status
+	current-branch = symbolic-ref --short HEAD
+	pull-ro = !git pull --rebase origin $(git current-branch)
+	push-f = !git push --force-with-lease
