@@ -1,0 +1,32 @@
+"*":
+  "autocomplete-emojis": {}
+  core:
+    telemetryConsent: "limited"
+    themes: [
+      "atom-material-ui"
+      "atom-material-syntax"
+    ]
+  editor:
+    fontSize: 15
+  "exception-reporting":
+    userId: "e4a99609-63ba-4246-9c0e-28e2cd40e3f5"
+  "git-blame":
+    columnWidth: 307
+  "platformio-ide-terminal":
+    style:
+      theme: "solarized-dark"
+    toggles:
+      autoClose: true
+  rspec:
+    command: "bundle exec rspec"
+  "terminal-plus":
+    core:
+      autoRunCommand: "/bin/bash"
+    style:
+      theme: "pro"
+    toggles:
+      autoClose: true
+  "tree-view": {}
+  "vim-mode-plus": {}
+  welcome:
+    showOnStartup: false
